@@ -1,0 +1,36 @@
+# -------------------------------------
+# Gerber/PCB Manufacturing Files
+# -------------------------------------
+*.gbr      # Gerber artwork (copper layers, silkscreen, etc.)
+*.gm?      # Mechanical layers (e.g., .gm1, .gml)
+*.gt?      # Top layers (e.g., .gtl for top copper, .gto for top silkscreen)
+*.gb?      # Bottom layers (e.g., .gbl for bottom copper)
+*.gbs      # Board outline
+*.drl      # Drill files
+*.xln      # Excellon drill data
+*.zip      # Common Gerber bundle format
+
+# -------------------------------------
+# KiCad Project Backups & Temp Files
+# -------------------------------------
+*-bak              # Simple backup suffix
+*-backup           # Alternate backup suffix
+*.kicad_pcb-bak    # PCB file backups
+*.kicad_pro-bak    # Project file backups
+_autosave*         # Autosave directories
+*.tmp              # Temporary files
+*-cache.lib        # Symbol cache files
+*-rescue.lib       # Rescue libraries
+*-save.kicad_pcb   # Manual save states
+
+# -------------------------------------
+# macOS System Files
+# -------------------------------------
+.DS_Store          # Finder metadata
+.AppleDouble       # Resource fork data
+.Spotlight-V100    # Search index
+.Trashes           # Trash folder metadata
+.VolumeIcon.icns   # Custom volume icons
+*~                 # Temporary editor files
+._*                # Resource fork files
+Thumbs.db          # Windows thumbnail cache (common cross-platform)
