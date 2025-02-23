@@ -2039,9 +2039,10 @@
 		(descr "Raspberry Pi Pico versatile common (Pico & Pico W) footprint for surface-mount or through-hole hand soldering, supports Raspberry Pi Pico 2, default socketed model has height of 8.51mm, https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
 		(tags "module usb pcb antenna")
 		(property "Reference" "A1"
-			(at 11.7475 24.765 0)
+			(at -0.89 3.23 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "76015ce1-97a0-4721-8c05-2323b503bacd")
 			(effects
 				(font
@@ -11142,7 +11143,7 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q3"
-			(at 0 -2.4 90)
+			(at 0 -2.5 90)
 			(layer "F.SilkS")
 			(uuid "43e3def0-02ee-478b-9ea8-ead4908c7c62")
 			(effects
@@ -13926,6 +13927,18 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "MAX 12V DC\n"
+		(at 126.5 135.5 0)
+		(layer "F.SilkS")
+		(uuid "c64c21db-f8bf-4ef4-a62d-022cdb83bc7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Operating Temp : -5°C to 40°C"
 		(at 103 106 90)
 		(layer "F.SilkS")
@@ -13946,18 +13959,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "MAX 12V DC\n"
-		(at 126.5 135.5 0)
-		(layer "Edge.Cuts")
-		(uuid "c64c21db-f8bf-4ef4-a62d-022cdb83bc7d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
